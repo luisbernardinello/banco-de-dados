@@ -15,11 +15,11 @@ Esse repositorio contém os projetos tanto de Banco de Dados I quanto de Banco d
 
 ## MER projeto farmácia
 
-<img src="img/MER-projeto-farmacia.jpg" align="center" height=auto width=60%/>
+<img src="img/MER-projeto-farmacia.jpg" align="center" height=auto width=90%/>
 
 <br/>
 
-## Minimundo farmácia
+## Minimundo projeto farmácia
 "Uma farmácia se trata de um estabelecimento onde os clientes podem comprar produtos, que
 podem ser controlados ou sem receita. Cada produto possui um ID único, nome, descrição,
 preço e quantidade em estoque. Os produtos controlados só podem ser vendidos com uma
@@ -43,24 +43,26 @@ cliente, livres para escolha. Os clientes também podem apresentar receitas ao f
 para adquirir produtos controlados."
 <br>
 
-## (Estudo) Algebra Relacional
+### (Estudo) Algebra Relacional
 
 Relational algebra is one of the two formal query languages associated with the relational model. Queries in algebra are composed using a collection of operators. A
 fundamental property is that every operator in the algebra accepts (one or two) relation instances as arguments and returns a relation instance as the result. This property makes it easy to compose operators to form a complex query—a relational algebra expression is recursively defined to be a relation, a unary algebra operator applied to a single expression, or a binary algebra operator applied to two expressions. We describe the basic operators of the algebra (selection, projection, union, cross-product, and difference), as well as some additional operators that can be defined in terms of the basic operators but arise frequently enough to warrant special attention, in the following sections
 
 Each relational query describes a step-by-step procedure for computing the desired answer, based on the order in which operators are applied in the query. The procedural nature of the algebra allows us to think of an algebra expression as a recipe, or a plan, for evaluating a query, and relational systems in fact use algebra expressions to represent query evaluation plans
 
-<img src="resolucoes/algebra-relacional-resumo.jpeg" align="center" height=auto width=40%/>
+<img src="resolucoes/algebra-relacional-resumo.jpg" align="center" height=auto width=70%/>
 
 ### Exercícios resolvidos
 
 #### Algebra Relacional
 
 > Nota: O MER e MR se encontram na mesma pasta
+<br>
+
 [BD Empresa](resolucoes/resolucao_bd_empresa.pdf) - resolução de questões para o _Minimundo Empresa_.
 <br>
 
-[BD Marinheiros](resolucoes/resolucao_bd_marinheiros.pdf) - resolução do modelo exemplo apresentado no livro _Database Management Systems - Raghu Ramakrishnan_.
+[BD Marinheiros](resolucoes/resolucao_bd_marinheiros.pdf) - resolução do modelo exemplo apresentado no livro  _Database Management Systems - Raghu Ramakrishnan_.
 
 <br/>
 
@@ -68,10 +70,10 @@ Each relational query describes a step-by-step procedure for computing the desir
 
 
 
+---
 
-
-## Referencias
-- [1] Database Management Systems - Raghu Ramakrishnan (livro melhor que o livro de referência da disciplina)[Livro completo](livros/dbms-raghu-ramakrishnan.pdf)
+### Referencias
+- [1] Database Management Systems - Raghu Ramakrishnan (livro melhor que o livro de referência da disciplina) [Livro completo aqui](livros/dbms-raghu-ramakrishnan.pdf)
 
 
 ---
