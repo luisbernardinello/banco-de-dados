@@ -1,54 +1,45 @@
-# Banco de Dados
-
-![java](https://img.shields.io/badge/BCC-UNESP-Bauru.svg)
+![Unesp](https://img.shields.io/badge/BCC-UNESP-Bauru.svg)
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
+# Database I and Database II :high_brightness::high_brightness:
 
+![database](https://socialify.git.ci/luisbernardinello/database/image?font=Raleway&language=1&name=1&owner=1&pattern=Solid&theme=Light)
 
-## BDI e BDII
-Esse repositorio contém os projetos tanto de Banco de Dados I quanto de Banco de Dados II, além de materiais de estudo.
+## :pushpin::pushpin: What will you find? :pushpin::pushpin:
+
+This repository contains study notes and one project called "pharmacy inventory management system".
+
 <br>
 
 
-### Algebra Relacional
+### Relational algebra
 
 Relational algebra is one of the two formal query languages associated with the relational model. Queries in algebra are composed using a collection of operators. A
 fundamental property is that every operator in the algebra accepts (one or two) relation instances as arguments and returns a relation instance as the result. This property makes it easy to compose operators to form a complex query—a relational algebra expression is recursively defined to be a relation, a unary algebra operator applied to a single expression, or a binary algebra operator applied to two expressions. We describe the basic operators of the algebra (selection, projection, union, cross-product, and difference), as well as some additional operators that can be defined in terms of the basic operators but arise frequently enough to warrant special attention, in the following sections
 
 Each relational query describes a step-by-step procedure for computing the desired answer, based on the order in which operators are applied in the query. The procedural nature of the algebra allows us to think of an algebra expression as a recipe, or a plan, for evaluating a query, and relational systems in fact use algebra expressions to represent query evaluation plans
 
-<img src="resolucoes/algebra-relacional-resumo.jpg" align="center" height=auto width=80%/>
+<img src="resolutions/algebra-relacional-resumo.jpg" align="center" height=auto width=80%/>
 
-### Exercícios resolvidos
+### Resolutions
 
-#### Algebra Relacional
+#### Relational algebra
 
-> Nota: O MER e MR se encontram na mesma pasta
+
+- [DB Enterprise](resolutions/resolucao-bd-empresa.pdf) - resolutions to the mini-world enterprise.
 <br>
 
-[BD Empresa](resolucoes/resolucao-bd-empresa.pdf) - resolução de questões para o _Minimundo Empresa_.
-<br>
-
-[BD Marinheiros](resolucoes/resolucao-bd-marinheiros.pdf) - resolução do modelo exemplo apresentado no livro  _Database Management Systems - Raghu Ramakrishnan_.
+- [DB Sailors](resolutions/resolucao-bd-marinheiros.pdf) - resolutions from the example in the book  _Database Management Systems - Raghu Ramakrishnan_.
 
 <br/>
 
 
 
-
-
-
-
-## Projeto BDI:
-- Projeto de um CRUD com Angular + NodeJS para um sistema de gerenciamento de estoque de farmácias. 
+## Project DB 1:
+- CRUD with Angular + NodeJS for a pharmacy inventory management system 
 <br>
 
-## MER projeto farmácia
 
-<img src="img/MER-projeto-farmacia.jpg" align="center" height=auto width=100%/>
-
-<br/>
-
-## Minimundo projeto farmácia
+## Mini-world pharmacy project (PT-BR)
 "Uma farmácia se trata de um estabelecimento onde os clientes podem comprar produtos, que
 podem ser controlados ou sem receita. Cada produto possui um ID único, nome, descrição,
 preço e quantidade em estoque. Os produtos controlados só podem ser vendidos com uma
@@ -72,11 +63,18 @@ cliente, livres para escolha. Os clientes também podem apresentar receitas ao f
 para adquirir produtos controlados."
 <br>
 
+## ER Model - pharmacy project
+
+<img src="img/MER-projeto-farmacia.jpg" align="center" height=auto width=100%/>
+
+<br/>
+
+
 
 ---
 
-### Referencias
-- [1] Database Management Systems - Raghu Ramakrishnan (livro melhor que o livro de referência da disciplina) [Livro completo aqui](livros/dbms-raghu-ramakrishnan.pdf)
+### References
+- [1] Database Management Systems - Raghu Ramakrishnan [Here](books/dbms-raghu-ramakrishnan.pdf)
 
 
 ---
